@@ -121,6 +121,7 @@ namespace GoogleARCore.Examples.ObjectManipulation
         /// </summary>
         protected override void OnSelected()
         {
+            Destroy(gameObject);
             SelectionVisualization.SetActive(true);
         }
 
